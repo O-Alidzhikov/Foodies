@@ -6,7 +6,6 @@ import { getAll } from "../services/meals-service";
 
 function MealSection() {
   const allMeals = getAll();
-  console.log(allMeals);
   return <MealsGrid allMeals={allMeals}></MealsGrid>;
 }
 
